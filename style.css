@@ -1,0 +1,222 @@
+@media (max-width: 1400px){
+    html {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 450px){
+    html {
+        font-size: 12px;
+    }
+}
+
+
+body{
+    background-color: grey;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.web-container{
+    
+}
+
+
+/* Nav */
+.nav-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar img{
+    height: auto;
+    width: 5%;
+}
+
+.nav-form{
+    margin-left: 2rem;
+}
+
+.nav-form input {
+    width: 200%;
+    border-radius: 1rem;
+}
+
+.nav-logo{
+    display: flex;
+    gap:2rem;
+    padding:2rem;
+    margin-left: auto;
+    
+}
+
+.nav-logo a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-bar a:visited{
+    color: black;
+}
+
+.nav-bar a:link{
+    color: black;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    background-color: white;
+    padding:4rem;
+    width: 25%;
+}
+
+.header-content .text{
+    font-size: 5rem;
+    
+}
+
+.header-content .cost{
+    font-size: 3rem;
+    font-weight: bold;  
+}
+
+.header-content button{
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.header img {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Content */
+
+.content {
+    background-color: lightgray;
+}
+
+.content-1,.content-2{
+    display: flex;
+    padding: 5rem;
+    gap:5rem;
+    
+    align-items: center;
+}
+
+.content img{
+    height: 30%;
+    width: 30%;
+}
+
+.content div{
+    font-size: 1.5rem;
+}
+
+/* Review */
+
+.reviews {
+    
+    padding: 5rem;
+}
+
+.reviews form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.allreviews {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(50px,1fr));
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    gap:1rem;
+    height: 55vh;
+}
+
+.allreviews div{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(50px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(50px,1fr));
+    border: 3px solid black;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+/* Discount */
+
+.voucher {
+    display: flex;
+    background-color: white;
+    gap:2rem;
+    padding: 3rem;
+    
+}
+
+.voucher div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+}
+
+.voucher img{
+    height: auto;
+    width: 50%;
+}
+
+.voucher button {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    
+}
+
+button:hover{
+    border: 5px solid black;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+}
