@@ -11,14 +11,14 @@
 <body>
     <div class="web-container">
         <div class="nav-bar">
-            <img src="img/3514981.jpg" alt="logo">
+            <img class="nav-logo" src="img/3514981.jpg" alt="logo">
             <form class="nav-form">
                 <input type="text" name="text">
             </form>
-            <div class="nav-logo">
-                <a href="#">Product</a>
-                <a href="#">Reviews</a>
-                <a href="#">Voucher</a>
+            <div class="nav-links"> 
+                <a class='nav-link link1' href="#content">Product</a>
+                <a class='nav-link link2' href="#reviews">Reviews</a>
+                <a class='nav-link link3' href="#voucher">Voucher</a>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
             <img src="img/iphone-12-finish-select-202207-black.jpeg" alt="phone">
         </div>
 
-        <div class="content">
+        <div class="content" id="content">
             <div class="content-1">
                 <img src="img/download.jpeg" alt="content">
                 <div>A16 Bionic chip</div>
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="reviews">
+        <div class="reviews" id="reviews">
             <form>
                 <label for="text">Tell us what you think about the phone!</label>
                 <textarea name="review" id="review" cols="50" rows="20" placeholder="Feel free to write anything!"></textarea>
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="voucher">
+        <div class="voucher" id="voucher">
             <div>Click here to get 10% Off your next purchase!</div>
             <img src="img/image.webp" alt="man">
             <button>Click here!</button>
