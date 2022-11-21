@@ -49,7 +49,7 @@ body{
     border-radius: 1rem;
 }
 
-.nav-logo{
+.nav-links{
     display: flex;
     gap:2rem;
     padding:2rem;
@@ -57,7 +57,7 @@ body{
     
 }
 
-.nav-logo a {
+.nav-links a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -84,11 +84,11 @@ body{
 .header-content {
     background-color: white;
     padding:4rem;
-    width: 25%;
+    width: 20%;
 }
 
 .header-content .text{
-    font-size: 5rem;
+    font-size: 3rem;
     
 }
 
@@ -107,7 +107,7 @@ body{
 }
 
 .header img {
-    height: auto;
+    height: 50%;
     width: 50%;
     margin-left: auto;
 }
@@ -219,4 +219,10 @@ button:hover{
     height: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+/* Random */
+
+.opacity {
+    opacity: 50%;
 }
