@@ -123,3 +123,29 @@ reviewBtn.addEventListener('click',()=> {
 getLocalStorage()
 setLocalStorage()
 
+/* discount form */
+
+const voucherBtn = document.querySelector('.voucher-btn');
+const discountForm = document.querySelector('.discount');
+const discountContainer = document.querySelector('.discount-container');
+
+voucherBtn.addEventListener('click',() => {
+    discountForm.classList.remove('hidden')
+    overlay.classList.remove('hidden')
+    discountTimer()
+})
+
+overlay.addEventListener('click',()=>{
+    discountForm.classList.add('hidden')
+    overlay.classList.add('hidden')
+})
+
+const discountTimer = function(){
+    document.querySelector('.discount-voucher').classList.add('hidden');
+    document.querySelector('.discount-text').classList.add('hidden')
+    setTimeout(()=>{
+        document.querySelector('.discount-voucher').classList.remove('hidden');
+        document.querySelector('.discount-text').classList.remove('hidden')
+    },1000)
+}
+

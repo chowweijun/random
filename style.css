@@ -85,7 +85,7 @@ body{
 }
 
 .header-content .text{
-    font-size: 3rem;
+    font-size: 1rem;
     
 }
 
@@ -96,11 +96,11 @@ body{
 
 .header-content button{
     margin-top: 1.5rem;
-    padding: 1.5rem;
+    padding: 1rem;
     width: 50%;
     border-radius: 1rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .header img {
@@ -154,7 +154,7 @@ body{
 }
 
 form label {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -180,6 +180,10 @@ form label {
     
 }
 
+.reviews-btn {
+    margin-top: 1rem;
+}
+
 /* Discount */
 
 .voucher {
@@ -203,11 +207,18 @@ form label {
 }
 
 .btn {
-    height: 5rem;
-    width: 10rem;
+    height: 2rem;
+    width: 5rem;
     border-radius: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     
+}
+
+.voucher-btn {
+    height: 5rem;
+    border-radius: 1.5rem;
+    width: 7rem;
+    font-size: 1rem;
 }
 
 button:hover{
@@ -229,21 +240,26 @@ button:hover{
     position: relative;
     display: flex;
     justify-content: center;
+    
 }
 
 .form-particulars form {
     z-index: 999;
     position: fixed;
-    bottom:18rem;
+    bottom:10rem;
     display: flex;
     flex-direction: column;
     
     align-items: center;
     padding: 1rem;
     background-color: white;
-    height: 40vh;
+    height: 55vh;
     width: 30%;
     gap:1rem
+}
+
+.form-particulars label {
+    font-size: 3vh;
 }
 
 .overlay{
@@ -261,6 +277,49 @@ button:hover{
 .form-particulars button {
     align-self: flex-end;
 }
+
+/* Discount form */
+
+.discount {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.discount-form {
+    display: flex;
+    background-color: white;
+    z-index: 999;
+    height: 30vh;
+    width: 40%;
+    gap:1rem;
+    position: fixed;
+    bottom:18rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.discount-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.discount-text {
+    font-size: 0.5rem;
+}
+
+.discount button {
+    margin-bottom: 8rem;
+}
+
+.discount img {
+    width: 60%;
+    height: auto;
+}
+
 /* Random */
 
 .opacity {
@@ -275,3 +334,14 @@ button:hover{
 .blur {
     filter: blur(1rem)
 }
+
+.btn-look {
+    transition: 1s ease-in;
+}
+
+.btn-look:hover{
+    box-shadow: 3px 5px 5px #999;
+    background-color: teal;
+    transform: translateX();
+}
+    
